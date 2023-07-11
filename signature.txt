@@ -1,0 +1,25 @@
+171773179e3777a41d87dbf37a5ab129b9bd996f
+
+Public key: fA7Ih7xfHGqWub+fDJy0dX+y2O/dvTDmO4xmeF1Bylc=
+Signature: lP52Z9gMAipXDe6M8j8HOhtaU17X5FOu9aRrggDWaQJsooMACJInDeh7GYkweoYu3CPlaWXHFPHueEGuTiN8Aw==
+
+======================================================================================================================
+
+The file https://metamystical-musings.github.io/Metamystical-Musings.pdf was created by MisterY on July 11, 2023
+and signed by him using https://hash-and-sign.github.io -- a web page he created from open source Ed25519 DSA software.
+
+To verify the signature:
+
+1. Compute the SHA256 checksum of the PDF. The technique for doing so depends on your operating system. 
+   This guide may be useful: https://technastic.com/check-md5-checksum-hash
+
+2. Confirm that the SHA256 checksum matches the first line of this file.
+
+3. Copy and paste the first four lines of this file (above the double-line) into the lower box (Message to 
+   sign/verify) of https://hash-and-sign.github.io -- It doesn't matter what is in the upper box (12 random words).
+
+4. Just below the lower box is a Status message. If the status is "verified" then the PDF has not been altered 
+   since signing by the owner of the public key.
+
+5. Confirm that the pubic key belongs to MisterY. He published his public key on his substack here: 
+   https://metamystical.substack.com/p/postscript
