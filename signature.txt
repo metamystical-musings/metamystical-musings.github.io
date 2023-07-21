@@ -1,11 +1,11 @@
-4bbf9f3fb8c22ee26227f731126021ef4d0fe675
+2ac44f6aa3479b310346a49ace29939f7443b7a5
 
 Public key: fA7Ih7xfHGqWub+fDJy0dX+y2O/dvTDmO4xmeF1Bylc=
-Signature: lMEE78vExKLsD+IJvIXulWO7RJl7jIHf1g9EqiMk06xrv8G6pnDi2/1aXcBLokl5ccl4GygTHlRvEjvUCRItAw==
+Signature: PG6nSNZS6JRD6lmCSjSREqh1Tmp2cIvYWy0Vy/CTMqfzHIiziy6NIh0GlO8mptjvsHkoq3M5ROfovh/39fClAA==
 
 ======================================================================================================================
 
-The file https://metamystical-musings.github.io/Metamystical-Musings.pdf was created by MisterY on July 11, 2023
+The file https://metamystical-musings.github.io/Metamystical-Musings.pdf was created by MisterY on July 21, 2023
 and signed by him using https://hash-and-sign.github.io -- a web page he created from open source Ed25519 DSA software.
 
 To verify the signature:
