@@ -1,8 +1,7 @@
-2ac44f6aa3479b310346a49ace29939f7443b7a5
+b203e6f7952b1cc869b2ca904aa38359c66de858
 
 Public key: fA7Ih7xfHGqWub+fDJy0dX+y2O/dvTDmO4xmeF1Bylc=
-Signature: PG6nSNZS6JRD6lmCSjSREqh1Tmp2cIvYWy0Vy/CTMqfzHIiziy6NIh0GlO8mptjvsHkoq3M5ROfovh/39fClAA==
-
+Signature: 91jaZKc4bjHaGoh5G+i80VVklLlZR4iS+aSUkI5zfP6AANwDqus0Yn5zo119BtCtryeR/S2rmgucu/SAgyJyDQ==
 ======================================================================================================================
 
 The file https://metamystical-musings.github.io/Metamystical-Musings.pdf was created by MisterY on July 21, 2023
