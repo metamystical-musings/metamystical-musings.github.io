@@ -9,7 +9,7 @@ and signed by him using https://hash-and-sign.github.io -- a web page he created
 
 To verify the signature:
 
-1. Compute the SHA256 checksum of the PDF by dragging and dropping the file into the into the lower box (Message to 
+1. Compute the SHA256 checksum of the PDF by dragging and dropping the file into the lower box (Message to 
    sign/verify) of https://hash-and-sign.github.io.
 
 2. Confirm that the SHA256 checksum matches the first line of this file.
