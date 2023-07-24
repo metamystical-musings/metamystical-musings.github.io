@@ -1,7 +1,7 @@
-018a7b9ce8a6708b75404d605bf5ee6eca1d4aa26285264b5de0a91cb4b3ffde
+7TRS6APk1sEc0GvrjjMwlVATAZQG76jiMnbOQspk1/E=
 
 Public key: fA7Ih7xfHGqWub+fDJy0dX+y2O/dvTDmO4xmeF1Bylc=
-Signature: 2iaKKcYl4qAqg5A/J9mL4zB/7Bs60trkRDzZV+9MlsRc3hQIMyUL/smEWne5PKi3odYrlmmMPC0RGv/3NQdwBg==
+Signature: 1EVNtaaw/eee8o3Kvqx6x78AIDFwKVgQ1IrrZYXipCs5O4bxda7XkJiH/1rzxHuxfbAzwMxWDg3S0Q8rLziTDA==
 ======================================================================================================================
 
 The file https://metamystical-musings.github.io/Metamystical-Musings.pdf was created by MisterY on July 24, 2023
@@ -9,10 +9,10 @@ and signed by him using https://hash-and-sign.github.io -- a web page he created
 
 To verify the signature:
 
-1. Compute the SHA256 checksum of the PDF by dragging and dropping the file into the lower box (Message to 
+1. Compute the SHA512half checksum of the PDF by dragging and dropping the file into the lower box (Message to 
    sign/verify) of https://hash-and-sign.github.io.
 
-2. Confirm that the SHA256 checksum matches the first line of this file.
+2. Confirm that the SHA512half checksum matches the first line of this file.
 
 3. Copy and paste the first four lines of this file (above the double-line) into the lower box (Message to 
    sign/verify) of https://hash-and-sign.github.io -- It doesn't matter what is in the upper box (12 random words).
