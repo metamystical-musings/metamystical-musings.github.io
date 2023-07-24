@@ -1,16 +1,16 @@
-b203e6f7952b1cc869b2ca904aa38359c66de858
+018a7b9ce8a6708b75404d605bf5ee6eca1d4aa26285264b5de0a91cb4b3ffde
 
 Public key: fA7Ih7xfHGqWub+fDJy0dX+y2O/dvTDmO4xmeF1Bylc=
-Signature: 91jaZKc4bjHaGoh5G+i80VVklLlZR4iS+aSUkI5zfP6AANwDqus0Yn5zo119BtCtryeR/S2rmgucu/SAgyJyDQ==
+Signature: 2iaKKcYl4qAqg5A/J9mL4zB/7Bs60trkRDzZV+9MlsRc3hQIMyUL/smEWne5PKi3odYrlmmMPC0RGv/3NQdwBg==
 ======================================================================================================================
 
-The file https://metamystical-musings.github.io/Metamystical-Musings.pdf was created by MisterY on July 21, 2023
+The file https://metamystical-musings.github.io/Metamystical-Musings.pdf was created by MisterY on July 24, 2023
 and signed by him using https://hash-and-sign.github.io -- a web page he created from open source Ed25519 DSA software.
 
 To verify the signature:
 
-1. Compute the SHA256 checksum of the PDF. The technique for doing so depends on your operating system. 
-   This guide may be useful: https://technastic.com/check-md5-checksum-hash
+1. Compute the SHA256 checksum of the PDF by dragging and dropping the file into the into the lower box (Message to 
+   sign/verify) of https://hash-and-sign.github.io.
 
 2. Confirm that the SHA256 checksum matches the first line of this file.
 
