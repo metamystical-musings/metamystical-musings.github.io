@@ -19,17 +19,23 @@ let secret = ''
 function getEle(id) { return document.getElementById(id) }
 function setVal (id, val) { getEle(id).value = val }
 function getVal (id) { return getEle(id).value.trim() }
-function sha512half(file) {
-  return new Promise((resolve) => {
-    const reader = new FileReader();
-    reader.onload = () => { resolve(nacl.util.encodeBase64(nacl.hash(new Uint8Array(reader.result)).slice(0,32))) }
-    reader.readAsArrayBuffer(file);
-  })
+function sha256(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => {
+      crypto.subtle.digest('SHA-256', reader.result)
+        .then((checksum) => { resolve(nacl.util.encodeBase64(new Uint8Array(checksum))) })
+        .catch((err) => reject(err))
+    };
+    reader.readAsArrayBuffer(file)
+  });
 }
 function initMnemonic () {
   getEle('message').addEventListener('drop', async (event) => {
     event.preventDefault();
-    setVal('message', await sha512half(event.dataTransfer.files[0]));
+    try {
+      setVal('message', await sha256(event.dataTransfer.files[0]));
+    } catch (err) { setText('status', err) }
   });
   let text = ''
   const randBytes = nacl.randomBytes(24)
@@ -107,7 +113,7 @@ function copyText (id) {
   <ol>
   <li>A random set of 12 memorizable English words appears in the upper text box every time this page is refreshed.</li>
   <li>They should be securely stored and kept private because they are used to generate your secret key (using SHA-512half) and therefore may be needed to prove that you are the owner of your public key.</li>
-  <li>Type or paste text into the <i>Message</i> box. Dragging and dropping a file into the <i>Message</i> box will compute its SHA-512half (first 32 bytes of SHA-512) checksum, base64 encoded.</li>
+  <li>Type or paste text into the <i>Message</i> box. Dragging and dropping a file into the <i>Message</i> box will compute its SHA-256 checksum, base64 encoded.</li>
   <li>Use the <i>Sign</i> button to compute the public key and the signature from the secret key and the message.</li>
   <li>Send to the recipient the signed message including the appended public key and signature.</li>
   </ol>
